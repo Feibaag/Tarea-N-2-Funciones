@@ -1,0 +1,96 @@
+body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #fdf6f6; /* Color de fondo más claro */
+      margin: 20px;
+      padding: 10px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #ecccb4; /* Color de fondo más claro */
+    border-radius: 10px; /* Reducido el radio para que sea más delgado */
+    padding: 10px; /* Reducido el padding para hacer el cuadro más delgado */
+    margin-bottom: 20px;
+  }
+  
+  h1, h3 {
+    color: #532204; /* Color más suave para el título */
+    margin: 5px 0; /* Reducido el margen superior e inferior de los títulos */
+  }
+  
+  h6 {
+      color: #532204; /* Color más suave para el subtítulo */
+      text-align: center;
+  }
+  
+  .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2px;
+      flex-wrap: wrap;
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: #FFE4D6; /* Color de fondo más claro */
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 1px 10px rgba(207, 184, 184, 0.5); /* Color de sombra más claro */
+      font-size: 32px;
+  }
+  
+  .boton {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #532204; /* Color de botón más claro */
+      color: #fff;
+      text-decoration: none;
+      border-radius: 15px;
+      transition: all 0.9s ease-in-out;
+  }
+  
+  .boton:hover {
+      background-color: #CC9544; /* Color de botón más oscuro al pasar el mouse */
+      padding: 12px 25px;
+  }
+  
+  /* Estilos para los formularios */
+  input {
+      width: 90%;
+      padding: 15px;
+      font-size: 20px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+  }
+  
+  #resp,#resp1,#resp2,#resp3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+      max-width: 95%;
+      margin: 0 auto;
+      color: white;
+      background-color: #BF9270; /* Color de fondo más claro */
+      border-radius: 8px;
+      padding: 29px;
+      box-shadow: 0 5px 10px rgba(129, 59, 70, 0.5); /* Color de sombra más claro */
+      margin-bottom: 15px;
+  }
+  
+  #resp2 {
+      padding: 36px;
+      border-radius: 9px;
+  }
+  
+  .botones {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 15px;
+  }
+  
+  .ocultar {
+      visibility: hidden;
+  }

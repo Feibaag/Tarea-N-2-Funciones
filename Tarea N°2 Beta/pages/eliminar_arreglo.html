@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar elemento de un arreglo</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Eliminar elemento de un arreglo</h1>
+    </header>
+    <main>
+        <section class="container">
+          <form action="../index.html">
+             <label for="numeros">
+              <input type="text" id="numeros" value="" placeholder=" Ingrese valores valores=> val1;val2;val3;...."  >
+             </label>
+             <label for="eliminar">
+              <input type="text" id="eliminar" value="" placeholder=" Ingrese el elemento que desea eliminar"  >
+             </label>
+           
+             <div class="botones">
+                 <button type="button" class="boton" onclick="pros.eliminarArreglo()">Aceptar</button>
+                 <button class="boton"   type="reset">Limpiar</button>
+                 <button type="submit" class="boton" >Regresar</button>
+             </div>
+             <div id="resp" >
+                Resultado:
+             </div>
+          </form>
+ 
+        </section>
+      
+    </main>
+    <footer>
+        <h6>Derechos de autor &copy; 2023 -   Gabriela Andagoya | Daniel Palma. Todos los derechos reservados.</h6>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

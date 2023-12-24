@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertar una</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Insertar una Subcadena</h1>
+    </header>
+    <main>
+        <section class="container">
+          <form action="../index.html">
+             <label for="cadena">
+              <input type="text" id="cadena" value="" placeholder="Ingrese una cadena"  size="60">
+             </label>
+             <label for="subcadena">
+              <input type="text" id="subcadena" value="" placeholder="Inserte subcadena"  >
+             </label>
+             <label for="posicion">
+              <input type="number" id="posicion" value="" placeholder="Ingrese la posición"  >
+             </label>
+           
+             <div class="botones">
+                 <button type="button" class="boton" onclick="pros.insertarSubcadena()">Aceptar</button>
+                 <button class="boton"   type="reset">Limpiar</button>
+                 <button type="submit" class="boton" >Regresar</button>
+             </div>
+             <div id="resp" >
+                Resultado:
+             </div>
+          </form>
+ 
+        </section>
+      
+    </main>
+    <footer>
+        <h6>Derechos de autor &copy; 2023 -   Gabriela Andagoya y Daniel Palma. Todos los derechos reservados.</h6>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>
